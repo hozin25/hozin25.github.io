@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telegram完整教程指南，包括Telegram在美国号码的选择、TG找群组方法、新手快速上手教程、防封与养号指南等实用内容。">
+    <meta name="keywords" content="telegram, 纸飞机, 电报, TG教程, TG注册, 找群组, 新手教程, 防封教程, 养号指南, 账号安全, 两步验证, 虚拟号, 实体卡">
+    <meta name="author" content="TG指南">
+    <meta name="robots" content="index, follow">
+    <title>Telegram完整教程指南 - 纸飞机电报注册使用教程 | TG防封养号攻略</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tggm.net/">
+    <meta property="og:title" content="Telegram完整教程指南 - 纸飞机电报注册使用教程">
+    <meta property="og:description" content="Telegram完整教程指南，包括号码选择、找群组、新手入门、防封养号等实用内容。">
+    <meta property="og:image" content="https://web.telegram.org/img/logo_256.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tggm.net/">
+    <meta property="twitter:title" content="Telegram完整教程指南 - 纸飞机电报注册使用教程">
+    <meta property="twitter:description" content="Telegram完整教程指南，包括号码选择、找群组、新手入门、防封养号等实用内容。">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            border-radius: 15px;
+            padding: 40px 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        header h1 {
+            color: #229ED9;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-tab {
+            background: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-weight: 600;
+            color: #333;
+            border: 3px solid transparent;
+        }
+
+        .nav-tab:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            border-color: #229ED9;
+        }
+
+        .nav-tab.active {
+            background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
+            color: white;
+            border-color: #229ED9;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+
+        .article-card.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .article-title {
+            color: #229ED9;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #229ED9;
+        }
+
+        .article-content {
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+
+        .article-content h2 {
+            color: #2AABEE;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .article-content h3 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+        }
+
+        .article-content ul, .article-content ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        .article-content li {
+            margin: 10px 0;
+        }
+
+        .article-content strong {
+            color: #229ED9;
+            font-weight: 600;
+        }
+
+        .article-content a {
+            color: #229ED9;
+            text-decoration: none;
+            border-bottom: 1px dashed #229ED9;
+            transition: all 0.3s;
+        }
+
+        .article-content a:hover {
+            color: #2AABEE;
+            border-bottom-style: solid;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .info-box {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        table th {
+            background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        table td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        table tr:hover {
+            background: #e7f3ff;
+        }
+
+        footer {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-top: 30px;
+        }
+
+        footer p {
+            color: #666;
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: #229ED9;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(34, 158, 217, 0.4);
+            transition: all 0.3s;
+            border: none;
+            font-size: 20px;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(34, 158, 217, 0.6);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .article-card {
+                padding: 20px;
+            }
+
+            .article-title {
+                font-size: 1.5em;
+            }
+
+            .nav-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-tab {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Telegram 完整教程指南</h1>
+            <p>从新手入门到高级进阶，全方位解析Telegram(纸飞机/电报)注册、使用、防封养号等实用技巧</p>
+        </header>
+
+        <nav class="nav-tabs">
+            <div class="nav-tab active" data-tab="article1">📱 号码选择</div>
+            <div class="nav-tab" data-tab="article2">🔍 找群组</div>
+            <div class="nav-tab" data-tab="article3">📚 新手教程</div>
+            <div class="nav-tab" data-tab="article4">🛡️ 防封养号</div>
+        </nav>
+
+        <main>
+            <!-- 文章1：号码选择 -->
+            <article class="article-card active" id="article1">
+                <h2 class="article-title">Telegram在美国号码的选择指南：实体卡vs虚拟卡注册对比</h2>
+                <div class="article-content">
+                    <h3>实体卡 vs. 虚拟卡：Telegram(纸飞机/电报)注册号码选择</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>对比项</th>
+                                <th>实体卡</th>
+                                <th>虚拟卡</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>注册成功率</strong></td>
+                                <td>极高。被识别为真实用户。</td>
+                                <td>较低。常被 Telegram 识别为垃圾账号拦截。</td>
+                            </tr>
+                            <tr>
+                                <td><strong>安全性</strong></td>
+                                <td>很难被找回，除非丢卡或欠费。</td>
+                                <td>容易被接码平台二次销售或被官方回收。</td>
+                            </tr>
+                            <tr>
+                                <td><strong>封号风险</strong></td>
+                                <td>极低。</td>
+                                <td>较高，尤其是新注册的虚拟号。</td>
+                            </tr>
+                            <tr>
+                                <td><strong>成本</strong></td>
+                                <td>较高（需支付月租+国际漫游费）。</td>
+                                <td>极低或免费（如 Google Voice）。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>A. 实体卡（最稳，适合长期养号，TG账号权重高）</h3>
+                    <ol>
+                        <li>官方会认为这是一个真实的人在操作，Telegram(纸飞机)系统识别为优质用户。</li>
+                        <li>账号权重极高，几乎不会遇到"注册即封号"的情况，各项功能权限也能正常开启，防封效果好。</li>
+                    </ol>
+
+                    <h3>B. 虚拟卡（省钱，但需碰运气，易封号）</h3>
+                    <ol>
+                        <li><strong>不要买"接码平台"的一次性号码</strong>： 这种号注册完之后，只要你一掉线，你就再也找不回来了。而且这种号被封的概率高达 90%。</li>
+                        <li><strong>权重低</strong>： 注册或者买来的新号，极易触发官方风控导致封号（Spam Info Bot 会找上你），Telegram虚拟号安全风险高。</li>
+                    </ol>
+
+                    <h3>Telegram运营商判断：实体卡/虚拟卡查询方法</h3>
+                    <ul>
+                        <li><strong>美国实体卡运营商推荐</strong>：T-Mobile、AT&T、Verizon（适合TG注册）</li>
+                        <li><strong>美国虚拟卡运营商</strong>：VoIP、MVNO（Google Voice等虚拟号）</li>
+                        <li><strong>TG号码查询网站</strong>：<a href="https://freecarrierlookup.com/" target="_blank">https://freecarrierlookup.com/</a>（Y代表实体卡，N虚拟卡）</li>
+                    </ul>
+
+                    <div class="info-box">
+                        <h3>实体卡TG(纸飞机/电报)号商推荐</h3>
+                        <p>网站：<a href="http://www.tggm.net" target="_blank">www.tggm.net</a><br>
+                        TG客服：<a href="https://t.me/buzhui" target="_blank">@buzhui</a></p>
+                    </div>
+
+                    <h3>总结：Telegram号码选择建议</h3>
+                    <p>如果不想用自己的号注册telegram(电报/TG/纸飞机)就购买成品号或者自己注册。</p>
+                    <ol>
+                        <li>虚拟卡需要精养，操作谨慎，封号风险较高。</li>
+                        <li>实体卡权重高，防封效果好，适合长期使用。</li>
+                        <li>选择优质美国号码可以提高Telegram账号权重和安全性。</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- 文章2：找群组 -->
+            <article class="article-card" id="article2">
+                <h2 class="article-title">Telegram找群组完整指南：如何高效搜索加入群组频道</h2>
+                <div class="article-content">
+                    <p>在 Telegram(纸飞机/电报) 中寻找群组（Group）或频道（Channel）主要有三种方式。由于 Telegram 官方为了保护隐私，并没有提供像应用商店那样的"分类大厅"，所以需要一些技巧来找群组。</p>
+
+                    <h3>1. Telegram应用内关键词搜索（最直接的找群方法）</h3>
+                    <p>这是最基础的方法，适合寻找公开的、名字显而易见的Telegram群组和频道。</p>
+
+                    <div class="info-box">
+                        <p><strong>操作：</strong> 点击首页右上角的 放大镜（搜索框）。</p>
+                        <p><strong>搜索技巧：</strong> 输入你想找的内容，例如"美剧"、"考研"、"资源"或"Python"。</p>
+                    </div>
+
+                    <p><strong>识别结果：</strong></p>
+                    <ul>
+                        <li>结果会显示在 <strong>"全局搜索" (Global Search)</strong> 下。</li>
+                        <li>带有 <strong>"订阅者" (Subscribers)</strong> 的是频道（只能看消息）。</li>
+                        <li>带有 <strong>"成员" (Members)</strong> 的是群组（可以聊天）。</li>
+                    </ul>
+
+                    <p><strong>进阶搜索：</strong> 尝试输入 "关键词 + 频道" 或 "关键词 + 导航"，往往能找到汇总了大量群组的目录。</p>
+                    <p>例如：在搜索栏上输入<a href="https://t.me/hutuiLM8" target="_blank">@hutuiLM8</a></p>
+
+                    <h3>2. 使用Telegram"综合导航频道"或搜索机器人（最高效的找群方式）</h3>
+                    <p>老玩家通常会关注几个大型的"导航频道"，它们就像 Telegram(纸飞机) 里的资源聚合平台。</p>
+
+                    <p><strong>机器人搜索：</strong> 在搜索框输入 <a href="https://t.me/jisou?start=a_6234188923" target="_blank">@jisoubot</a>（跳转链接： t.me/jisou?start=a_6234188923）或其他类似的关键词搜索机器人（注：这些机器人名称常变，可以通过搜索"搜索机器人"找到最新的）。</p>
+
+                    <p><strong>导航频道：</strong> 许多中文社区会建立诸如"超级索引"、"极搜"之类的频道，里面按类别（电影、软件、小姐姐、技术、金融）整理好了几百个群组链接。</p>
+
+                    <h3>3. 通过外部网站搜索Telegram群组（资源最丰富）</h3>
+                    <p>如果应用内搜不到，可以使用搜索引擎或专门的收录网站：</p>
+
+                    <div class="info-box">
+                        <p><strong>Google 搜索技巧：</strong> 在 Google 输入 <code>site:t.me 关键词</code>（例如： t.me/jisou?start=a_6234188923）。这样可以直接搜到公开的邀请链接。</p>
+                    </div>
+
+                    <p><strong>第三方目录网站：</strong></p>
+                    <ul>
+                        <li><strong>TGStat / Telemetr：</strong>偏向频道数据分析，但也是找热门频道的好地方。</li>
+                        <li><strong>中文收录网：</strong>网上有很多专门收录 Telegram 群组的网页版导航。</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <h3>⚠️ 避坑指南：Telegram找群组时的安全常识</h3>
+                        <ul>
+                            <li><strong>小心假群：</strong>很多热门项目（如：币安、某个知名博主）会有大量的仿冒群。入群前先看成员数，几十个人的往往是骗子，几万人的比较靠谱。</li>
+                            <li><strong>不要轻易点链接：</strong>有些群里会发"点此验证"或"下载播放器才能看视频"的链接，绝对不要点，那通常是盗号木马或钓鱼网站。</li>
+                            <li><strong>进群验证：</strong>很多中文群为了防广告，进群后会弹出验证（如：1+1=？），必须在 60秒内 点击正确答案，否则会被自动踢出。</li>
+                        </ul>
+                    </div>
+
+                    <div class="success-box">
+                        <h3>推荐资源：</h3>
+                        <p>推荐群组：<a href="https://t.me/hutuiLM8" target="_blank">@hutuiLM8</a><br>
+                        TG号商：<a href="https://t.me/buzhui" target="_blank">@buzhui</a><br>
+                        自助发卡购买网站：<a href="http://www.tggm.net" target="_blank">www.tggm.net</a></p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 文章3：新手教程 -->
+            <article class="article-card" id="article3">
+                <h2 class="article-title">Telegram新手快速上手指南：纸飞机电报使用教程</h2>
+                <div class="article-content">
+                    <p>Telegram(纸飞机/电报) 是一款以安全、速度和极简著称的即时通讯工具。如果你刚接触它，可能会觉得它像个增强版的微信，但其实它的核心逻辑更接近于"云端通讯器"。</p>
+
+                    <p>这是一份为你准备的Telegram快速上手指南，适合所有新手用户。</p>
+
+                    <h3>1. Telegram基础概念：它和微信有什么不同？</h3>
+                    <ul>
+                        <li><strong>全云端存储：</strong>换手机不需要迁移聊天记录，所有图片和视频都存在Telegram云端（除非你手动删除），不占用手机内存。这是Telegram(纸飞机)最大的优势。</li>
+                        <li><strong>隐私保护：</strong>你可以隐藏自己的手机号，别人只需通过 @用户名 就能找到你。</li>
+                        <li><strong>超级群组：</strong>一个群组最高支持 20 万人，且新成员进群可以查看历史记录。</li>
+                        <li><strong>频道 (Channels)：</strong>类似公众号，但没有推送限制，订阅者只能看，不能回话（除非开启评论区）。</li>
+                    </ul>
+
+                    <h3>2. Telegram核心设置（新手必做）</h3>
+                    <p>刚装好 Telegram(纸飞机/电报) 后，为了体验更好，建议先做以下三件事：</p>
+
+                    <h4>A. Telegram汉化界面设置</h4>
+                    <p>默认是英文。你可以直接在搜索框搜索<a href="https://t.me/hutuiLM8" target="_blank">@hutuiLM8</a> 或 <a href="https://t.me/buzhuiTG" target="_blank">@buzhuiTG</a>，找到相关的Telegram汉化频道，点击安装包即可一键切换为中文包，实现Telegram中文化。</p>
+
+                    <h4>B. Telegram隐私安全设置（防止被拉入骚扰群）</h4>
+                    <p>由于 Telegram(纸飞机) 默认权限较开，请务必前往以下设置保护账号安全：</p>
+                    <p><strong>设置 (Settings)</strong> &gt; <strong>隐私与安全 (Privacy and Security)</strong></p>
+                    <ul>
+                        <li><strong>手机号码：</strong>设为"没有人"。</li>
+                        <li><strong>权限（群组与频道）：</strong>设为"我的联系人"。（防止被陌生人拉进垃圾广告群）</li>
+                        <li><strong>两步验证 (Two-Step Verification)：</strong>开启它！为你的账户设置一个额外的密码。</li>
+                    </ul>
+
+                    <h4>C. 存储管理（节省手机空间）</h4>
+                    <p>前往 <strong>设置 &gt; 数据与存储 &gt; 存储使用情况</strong>：</p>
+                    <p>建议将"保留媒体"时间设置为 <strong>3天</strong> 或 <strong>1周</strong>。放心，即使手机删除了缓存，文件依然在云端，想看时点一下又会下载回来。</p>
+
+                    <h3>3. 如何寻找Telegram内容？</h3>
+                    <p>Telegram 的强大在于机器人 (Bots) 和 频道。</p>
+                    <ul>
+                        <li><strong>搜索框：</strong>点击右上角放大镜，输入关键词。</li>
+                        <li><strong>加入方式：</strong>链接通常以 t.me/xxxx 开头。<a href="https://t.me/hutuiLM8" target="_blank">http://t.me/hutuiLM8</a> 点击链接后，在底部点击 JOIN (加入)。</li>
+                    </ul>
+
+                    <p><strong>常用场景：</strong></p>
+                    <ul>
+                        <li>资源站：电影、图书、软件分享频道。</li>
+                        <li>新闻源：全球即时新闻、科技资讯。</li>
+                        <li>工具：自动下载 YouTube 视频的机器人、天气预报机器人等。</li>
+                    </ul>
+
+                    <h3>4. Telegram进阶小技巧</h3>
+                    <ul>
+                        <li><strong>收藏夹 (Saved Messages)：</strong>这是你的私人无限云盘。你可以把手机里的文件传上去，在电脑上登录直接下载。</li>
+                        <li><strong>静音发送：</strong>长按发送键，选择"不发出声音发送"，适合深夜给朋友留言。</li>
+                        <li><strong>定时发送：</strong>长按发送键，选择"定时发送"，可以当作提醒工具使用。</li>
+                        <li><strong>编辑消息：</strong>发错字了？长按已发出的消息，点击"编辑"，原地修改，不用撤回。</li>
+                    </ul>
+
+                    <h3>5. 从号商买TG号防止找回小技巧</h3>
+
+                    <h4>接手Telegram账号后的"防找回"四部曲</h4>
+
+                    <div class="warning-box">
+                        <p><strong>第一步：立即设置Telegram"两步验证" (Two-Step Verification)</strong><br>
+                        这是最重要的一步。即使卖家有验证码，没有这个密码他也进不去。这是Telegram(纸飞机)账号安全的核心。</p>
+                        <ul>
+                            <li>前往 <strong>设置 (Settings)</strong> &gt; <strong>隐私与安全 (Privacy and Security)</strong>。</li>
+                            <li>找到 <strong>两步验证 (Two-Step Verification)</strong>，设置一个复杂的密码。</li>
+                            <li><strong>务必绑定一个你自己的密保邮箱</strong>，否则一旦你忘了密码，这个号也就废了。</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <p><strong>第二步：24小时后强制踢出其他设备 (Terminate Sessions)</strong><br>
+                        前往 <strong>设置 &gt; 设备 (Devices)</strong>。</p>
+                        <ul>
+                            <li>查看是否有其他不明设备在线。</li>
+                            <li>点击 <strong>"终止其他所有会话" (Terminate All Other Sessions)</strong>。</li>
+                        </ul>
+                        <p><strong>注意：</strong>新登录的设备通常需要等待 24 小时才能踢掉旧设备。这段时间是风险期，请保持账号活跃（不要频繁加群以免被封）。</p>
+                    </div>
+
+                    <div class="success-box">
+                        <p><strong>第三步：更换绑定的手机号 (Change Number)</strong></p>
+                        <p>有条件情况可以更换</p>
+                        <ul>
+                            <li>准备一个你自己掌控的虚拟号（如 Google Voice）或海外实体卡。</li>
+                            <li>在设置中点击自己的头像/手机号，选择 <strong>"更换号码" (Change Number)</strong>。</li>
+                        </ul>
+                        <p>(大批量注册的号商他的卡一般都是注册卡，用完了就扔了)</p>
+                        <p>推荐号商：<a href="http://www.tggm.net" target="_blank">www.tggm.net</a></p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 文章4：防封教程 -->
+            <article class="article-card" id="article4">
+                <h2 class="article-title">Telegram防封与养号完整指南：保姆级教程</h2>
+                <div class="article-content">
+                    <h3>telegram(TG/电报/纸飞机)保姆级的防封与养号指南：</h3>
+
+                    <div class="highlight-box">
+                        <h4>A. 新号和购买新注册号</h4>
+                    </div>
+
+                    <h4>1. Telegram注册时的"环境洁净度"（生死关头）</h4>
+                    <p>很多Telegram账号在注册成功的那一秒就已经被标记为"高风险"了，原因通常出在网络环境。</p>
+
+                    <div class="warning-box">
+                        <ul>
+                            <li><strong>IP 纯净度：</strong> 绝对不要用万人使用的"免费梯子"或大型机场的公共节点。如果一个 IP 上有 100 个人同时在注册 TG，Telegram系统会直接封掉该 IP 段的所有新号。这是Telegram防封的关键。</li>
+                            <li><strong>地理对位：</strong> 如果你用美国号码注册，请务必使用美国 IP。如果你用美国号挂着香港或新加坡的 IP 注册，极易触发异常检测。</li>
+                            <li><strong>设备环境：</strong> 如果你的手机之前刚封过一个号，卸载重装后再注册。最好清理掉缓存，或者使用隐私浏览器/多开空间的隔离环境。</li>
+                        </ul>
+                    </div>
+
+                    <h4>2. 新号的"入职考察期"（前 24-72 小时）</h4>
+                    <p>新号就像职场新人，表现太活跃会被怀疑是机器人。</p>
+
+                    <div class="warning-box">
+                        <p><span style="color: #dc3545; font-weight: bold;">禁止：</span> 刚进群就发链接、发表情包轰炸。</p>
+                        <p><span style="color: #dc3545; font-weight: bold;">禁止：</span> 主动私聊陌生人（Stranger）。在 Telegram 中，如果陌生人点击"Report Spam（举报骚扰）"，新号几乎是秒封。</p>
+                        <p><span style="color: #dc3545; font-weight: bold;">禁止：</span> 瞬间加入超过 5 个群组。</p>
+                        <p><span style="color: #28a745; font-weight: bold;">建议：</span> 找个老用户朋友，让他把你存入通讯录，你们互相发几条普通的文字消息，建立"真实社交"权重。</p>
+                    </div>
+
+                    <h4>3. Telegram预防"双向限制" (Mute/Limited)解封方法</h4>
+                    <p>如果你发现：你可以看群消息，但不能私聊别人，或者搜不到群，说明你被Telegram"双向"了。</p>
+                    <ul>
+                        <li><strong>检查状态：</strong>在搜索框搜 <a href="https://t.me/SpamBot" target="_blank">@SpamBot</a>（官方出的检测机器人），对话并点击 /start。它会告诉你账号是否受限，以及受限到期时间。</li>
+                        <li><strong>解除方法：</strong>如果是误封，可以按照提示向官方申诉（一般写英文申诉理由）。</li>
+                    </ul>
+
+                    <h4>4. Telegram账号加固设置（长期防封策略）</h4>
+                    <p>为了防止被Telegram系统误伤，或者被黑客通过撞库攻击，需要进行以下账号安全加固：</p>
+                    <ul>
+                        <li><strong>开启Telegram两步验证 (2FA)：</strong> 必做！ 设置路径：设置 &gt; 隐私 &gt; 两步验证。这不仅防找回，也能向Telegram系统证明你是个重视安全的高级用户，提高账号权重。</li>
+                        <li><strong>隐藏手机号：</strong>将手机号可见性设为"没有人"。</li>
+                        <li><strong>保持活跃：</strong>Telegram 默认 6 个月不登录会自动销号。建议去 设置 &gt; 隐私 &gt; 自动销号，改成 1 年。</li>
+                    </ul>
+
+                    <h4>5. 实体卡特有的避坑指南</h4>
+                    <p>如果你用的是 Ultra Mobile PayGO 或 giffgaff：</p>
+                    <ul>
+                        <li><span style="color: #dc3545; font-weight: bold;">别欠费：</span>实体卡一旦欠费销号，你的号码会被收回并重新放回池子。下一个买到这个号的人，可以通过接码直接登录你的 TG。</li>
+                        <li><span style="color: #28a745; font-weight: bold;">定期收短信/发短信：</span>保持 SIM 卡在网活跃（如 giffgaff 半年发一条短信），确保卡片不被注销。</li>
+                        <li><span style="color: #dc3545; font-weight: bold;">不要频繁换设备：</span>实体卡号如果一天内在 3 台不同的设备上登录，极易触发保护性封锁。</li>
+                    </ul>
+
+                    <div class="success-box">
+                        <h4>B. 购买Telegram老号"年号"详细解析</h4>
+                        <p><strong>"年号"</strong>指的是注册时间超过一年、且一直保持活跃的Telegram账号。</p>
+
+                        <p>相比于你刚注册的"新号"，Telegram年号在系统后台拥有一种无形的"高信用分"，账号权重更高。</p>
+                        <p>如果你追求的是Telegram防封、高权限和社交稳定性，年号的优势非常明显：</p>
+                    </div>
+
+                    <h4>1. 极高的Telegram风控免疫力 (High Trust Score)</h4>
+                    <p>Telegram(纸飞机/电报) 的反垃圾邮件系统（Antispam）对账号有"动态信用评分"，影响账号权重和防封能力。</p>
+                    <ul>
+                        <li><strong>突破：</strong>系统认为这是一个真实社交的老用户。你可以更自由地加群、发言，甚至在短时间内处理较多消息，系统也不会轻易触发封号机制。</li>
+                        <li><strong>私聊限制：</strong>经过长时间的正常使用，年号通常已经解除了这种限制。即便你主动私聊陌生人，只要对方不手动举报你，系统不会主动拦截你的消息。</li>
+                    </ul>
+
+                    <h4>2. 群组管理权限与权重</h4>
+                    <ul>
+                        <li><strong>进群门槛：</strong>很多高质量的技术群或私密群设置了"入群门槛"（通过机器人验证），有些机器人会直接拒绝注册时间不满 7 天或 30 天的新号进入。</li>
+                        <li><strong>搜索权重：</strong>在全局搜索（Global Search）中，年号创建的频道或群组，排名往往比新号创建的更靠前，更容易被搜到。</li>
+                    </ul>
+
+                    <h4>3. 号码回收</h4>
+                    <p>由于你开启了<strong>两步验证（2FA）</strong>并稳定运行了一年，即便号码失效，只要你不主动退出登录，这个号依然可以一直用下去（因为 Telegram 登录状态是持久化的）。</p>
+
+                    <div class="success-box">
+                        <h4>推荐资源：</h4>
+                        <p>推荐TG号商：<a href="https://t.me/buzhui" target="_blank">@buzhui</a><br>
+                        自助购买网站：<a href="http://www.tggm.net" target="_blank">www.tggm.net</a></p>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p><strong>Telegram教程指南</strong> - 您的Telegram(纸飞机/电报)使用助手</p>
+            <p>提供Telegram注册、使用、防封养号等全方位教程服务</p>
+            <p style="margin-top: 20px;">
+                <a href="http://www.tggm.net" target="_blank">TG号商网站</a> |
+                <a href="https://t.me/buzhui" target="_blank">TG客服</a> |
+                <a href="https://t.me/hutuiLM8" target="_blank">推荐群组</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #999;">© 2025 TG指南. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    
+    <script defer src="/_vercel/insights/script.js"></script>   
+
+    <script>
+        // 标签切换功能
+        const tabs = document.querySelectorAll('.nav-tab');
+        const articles = document.querySelectorAll('.article-card');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // 移除所有活动状态
+                tabs.forEach(t => t.classList.remove('active'));
+                articles.forEach(a => a.classList.remove('active'));
+
+                // 添加当前活动状态
+                tab.classList.add('active');
+                const articleId = tab.getAttribute('data-tab');
+                document.getElementById(articleId).classList.add('active');
+
+                // 平滑滚动到文章顶部
+                document.getElementById(articleId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        // 返回顶部按钮显示/隐藏
+        const backToTop = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // 初始隐藏返回顶部按钮
+        backToTop.style.display = 'none';
+    </script>
+
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Telegram完整教程指南 - 纸飞机电报注册使用教程",
+      "description": "Telegram完整教程指南，包括号码选择、找群组、新手入门、防封养号等实用内容",
+      "keywords": "telegram, 纸飞机, 电报, TG教程, TG注册, 找群组, 新手教程, 防封教程, 养号指南, 账号安全",
+      "author": {
+        "@type": "Organization",
+        "name": "TG指南"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TG指南",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://web.telegram.org/img/logo_256.png"
+        }
+      }
+    }
+    </script>
+</body>
+</html>
